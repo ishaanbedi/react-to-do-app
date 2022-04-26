@@ -33,10 +33,8 @@ function App() {
             value={task}
             onChange={e => {
               setTask(e.target.value);
-
             }}
             onKeyDown={checkEnterKey}>
-
           </input>
           <button
             onClick={createTodo}
